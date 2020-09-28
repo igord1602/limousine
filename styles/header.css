@@ -34,20 +34,20 @@
     margin-right: 60px;
 }
 
-.menu {
+.menu1 {
     padding: 10px 20px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
 }
 
-.menu a {
+.menu1 a {
     text-decoration: none;
     color: #1e1c22;
     font-family: "Comfortaa", cursive;
     font-weight: 700;
 }
 
-.menu a:hover {
+.menu1 a:hover {
     /*background-color: #f6f5f0;*/
     border-bottom: 2px solid #fcd088;
     border-top: 2px solid #fcd088;
@@ -98,4 +98,206 @@
 
 .phone:hover {
     color: #817e71;
+}
+
+.phone_burger {
+    display: flex;
+    justify-content: center;
+}
+
+.phone_bur {
+    margin: 5px;
+}
+
+.social_burger {
+    display: flex;
+    justify-content: center;
+}
+
+.social_bur {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .menu1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 737px) {
+    .phone {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .phone {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .logo {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .logo img {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .phone_header {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .video video {
+        width: 450px;
+        max-height: 450px;
+    }
+}
+
+@media only screen and (max-width: 545px) {
+    .video video {
+        width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .video video {
+        width: 280px;
+        max-height: 280px;
+        margin-left: -4px;
+    }
+}
+
+@media only screen and (max-width: 941px) {
+    .phonefooter {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 811px) {
+    .phonefooter {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .logo_footer {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .phone_footer {
+        margin-right: 2px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .logo_footer {
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .logo_footer img {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .phone_footer {
+        margin-right: 2px;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .footer .main_containerfooter {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .footer_centr {
+        text-align: center;
+        width: 100%;
+        padding-top: 9px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 566px) {
+    .footer_right {
+        display: flex;
+        justify-content: center;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .footer .main_containerfooter {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .footer_centr {
+        text-align: center;
+        width: 100%;
+        padding-top: 9px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 366px) {
+    .footer_right {
+        display: flex;
+        justify-content: center;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main_banner {
+        height: 429px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .swiper-slide img {
+        height: 429px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .advantages_inner {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .column {
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .picture {
+        max-height: 175px;
+    }
 }

@@ -19,7 +19,6 @@ body {
 
 .main_content {
   padding-top: 0px;
-  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .main_banner {
@@ -97,10 +96,21 @@ body {
   /*background-color: #202529;*/
 }
 
-.footer .main_container {
+.main_containerfooter {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer .main_containerfooter {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.logo_footer {
+  margin-right: 60px;
 }
 
 .footer_centr {
@@ -127,7 +137,7 @@ body {
 }
 
 .phone_footer:hover {
-  background-color: #f6f5f0;
+  background-color: #b9b9b4;
 }
 
 .phone_foter {
@@ -144,8 +154,8 @@ body {
 }
 
 .phonefooter:hover {
-  color: #f6f5f0;
-  transform: scale(1.1, 1.1);
+  color: #817e71;
+  transform: scale(1.3, 1.3);
 }
 
 .social_footer {
@@ -156,7 +166,7 @@ body {
 }
 
 .social_footer:hover {
-  background-color: #f6f5f0;
+  background-color: #b9b9b4;
 }
 
 .social_foter {
@@ -168,6 +178,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0px 4px;
+  background-color: rgb(255, 255, 255);
 }
 
 .column {
@@ -227,4 +238,97 @@ body {
 
 .qwe {
   animation: 5s linear 1s infinite qwe;
+}
+
+
+
+#menu__toggle {
+  opacity: 0;
+}
+
+#menu__toggle:checked~.menu__btn>span {
+  transform: rotate(45deg);
+}
+
+#menu__toggle:checked~.menu__btn>span::before {
+  top: 0;
+  transform: rotate(0);
+}
+
+#menu__toggle:checked~.menu__btn>span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+  visibility: visible;
+  right: 0;
+}
+
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000000;
+  transition-duration: 0.5s;
+}
+
+.menu__btn>span::before {
+  content: "";
+  top: -8px;
+}
+
+.menu__btn>span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  right: -100%;
+  width: 35%;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #fffcfc;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.7s;
+}
+
+.menu__item {
+  display: block;
+  padding: 12px 24px;
+  color: #1e1c22;
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+/*.menu__item:hover {
+  background-color: #cfd8dc;
+}*/
+
+.burger-menu {
+  display: none;
 }

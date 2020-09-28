@@ -21,6 +21,11 @@
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
+    cursor: pointer;
+}
+
+.project-image {
+    height: 790px;
 }
 
 .projects-bullet-active {
