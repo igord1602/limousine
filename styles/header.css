@@ -274,13 +274,13 @@
 
 @media only screen and (max-width: 600px) {
     .main_banner {
-        height: 429px;
+        height: 328px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .swiper-slide img {
-        height: 429px;
+        height: 328px;
     }
 }
 
