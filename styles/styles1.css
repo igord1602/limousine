@@ -14,11 +14,11 @@
 }
 
 .projects-bullet {
-    width: 10px;
-    height: 10px;
-    border: 2px solid #FFBB01;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #FFBB01;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
     margin-left: 5px;
     margin-right: 5px;
     cursor: pointer;
@@ -29,10 +29,10 @@
 }
 
 .projects-bullet-active {
-    width: 12px;
-    height: 12px;
+    width: 15px;
+    height: 15px;
     background: #FFBB01;
-    display: inline-block;
+    display: block;
 }
 
 /* responsive */
@@ -44,11 +44,5 @@
 
     .project-image {
         margin-bottom: 6px;
-    }
-}
-
-@media (max-width: 564px) {
-    .projects-slider {
-        margin-bottom: 70px;
     }
 }

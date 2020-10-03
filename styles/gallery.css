@@ -5,6 +5,8 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 25px 0 35px;
 }
 
 .photo {
@@ -18,6 +20,7 @@
     height: auto;
     border: 10px solid #eee;
     box-sizing: border-box;
+    border-radius: 30px;
 }
 
 .photo a:hover {
@@ -47,11 +50,6 @@
     visibility: visible;
 }
 
-.photo figcaption {
-    color: #999999;
-    text-align: center;
-    margin-top: 20px;
-}
 
 #gallery {
     display: flex;

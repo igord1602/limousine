@@ -290,6 +290,36 @@
     }
 }
 
+@media only screen and (max-width: 810px) {
+    .advatages_col {
+        flex: 29%;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .advatages_col {
+        flex: 33%;
+    }
+}
+
+@media only screen and (max-width: 1059px) {
+    .advatages_ysl {
+        flex: 22%;
+    }
+}
+
+@media only screen and (max-width: 828px) {
+    .advatages_ysl {
+        flex: 20%;
+    }
+}
+
+@media only screen and (max-width: 788px) {
+    .advatages_ysl {
+        flex: 39%;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .column {
         max-width: 50%;
@@ -299,5 +329,17 @@
 @media only screen and (max-width: 600px) {
     .picture {
         max-height: 175px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hrresponsiv {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .hrmobilefest {
+        display: none;
     }
 }
