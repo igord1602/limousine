@@ -143,9 +143,10 @@
 }
 
 @media only screen and (max-width: 456px) {
-    .logo {
-        margin-right: 10px;
+    .projects-bullet {
+        cursor: none;
     }
+
 }
 
 @media only screen and (max-width: 456px) {
