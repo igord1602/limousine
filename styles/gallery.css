@@ -2,11 +2,22 @@
 
 .container {
     display: flex;
-    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
     padding: 25px 0 35px;
+}
+
+.colum {
+    width: 33%;
+}
+
+.colum1 {
+    width: 29.8%;
+}
+
+.colum2 {
+    width: 32%;
 }
 
 .photo {
@@ -15,8 +26,8 @@
 }
 
 .photo img {
+    width: 100%;
     display: block;
-    max-width: 100%;
     height: auto;
     border: 10px solid #eee;
     box-sizing: border-box;
@@ -33,7 +44,7 @@
 }
 
 .photo a:after {
-    content: '';
+    content: "";
     background: transparent url(../img/icons/eye-icon.png) no-repeat center;
     width: 52px;
     height: 35px;
@@ -50,15 +61,13 @@
     visibility: visible;
 }
 
-
 #gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 #gallery:after {
-    content: '';
+    content: "";
     display: block;
     height: 0;
     clear: both;

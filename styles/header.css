@@ -161,6 +161,18 @@
     }
 }
 
+@media only screen and (max-width: 370px) {
+    .logo img {
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .phone_header {
+        margin-right: 0px;
+    }
+}
+
 @media only screen and (max-width: 656px) {
     .video video {
         width: 450px;
@@ -342,5 +354,23 @@
 @media only screen and (min-width: 601px) {
     .hrmobilefest {
         display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery .colum {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery .colum1 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #gallery .colum2 {
+        width: 100%;
     }
 }
